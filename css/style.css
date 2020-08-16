@@ -1,11 +1,15 @@
 /*Цвет заголовков #212121*/
 /*Цвет текста #757575*/
 /*Цвет при наведении #2196F3*/
+/*Фон кнопок #F5F4FA*/
 
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary-background-color-button: #F5F4FA;
+    --primary-color-button: #212121;
+    --accent-color-button: #FFFFFF;
 }
 
 body {
@@ -96,7 +100,7 @@ h6 {
 }
 
 .hero > .link {
-    background-color: var(--accent-color);
+    background-color: #2196F3;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
@@ -176,4 +180,41 @@ h6 {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+/*========================================*/
+
+/*СТРАНИЦА ПОРТФОЛИО---------------------*/
+
+/*ГЛАВНЫЙ КОНТЕНТ СТРАНИЦЫ---------------*/
+/*Блок Кнопок----------------------------*/
+.button-list .button {
+    background-color: var(--primary-background-color-button);
+    color: var(--primary-color-button);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+    background-color: var(--accent-color);
+    color: var(--accent-color-button);
+}
+
+/*Блок Примеров наших работ---------------*/
+.job-link {
+    text-decoration: none;
+}
+
+.job-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.job-text {
+    font-size: 16px;
+    line-height: 1.87;
 }
