@@ -1,0 +1,179 @@
+/*Цвет заголовков #212121*/
+/*Цвет текста #757575*/
+/*Цвет при наведении #2196F3*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--title-text-color);
+    font-weight: 700;
+}
+
+/*ШАПКА САЙТА---------------------------*/
+
+/*Лого---------------------------------*/
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: #212121;
+}
+
+.logo > span {
+    color: #2196F3;
+}
+
+/*Навигация по страницам сайта---------*/
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/*Наши контакты---------------------------*/
+.contact-link {
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+/*ГЛАВНЫЙ КОНТЕНТ САЙТА-----------------*/
+
+/*Герой---------------------------------*/
+.hero {
+    background-color: #999999;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero > .link {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+/*---------------------------------*/
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+/*Наши преимущества----------------------*/
+.advantag-subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantag-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/*Чем мы занимаемся--------------------*/
+.activity-text {
+    background-color: #999999;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.activity-link {
+    text-decoration: none;
+}
+/*Наша Команда--------------------*/
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/*ПОДВАЛ САЙТА---------------------------*/
+
+/*Наши Данные--------------------------*/
+.address-text {
+    background-color: #999999;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-link {
+    background-color: #999999;
+    color: rgba(255,255,255,0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+/*Наши Соц.Сети---------------*/
+.social {
+    background-color: #999999;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
